@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.navigation.NavigationView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_view"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@color/white"
+    android:clipToPadding="false"
+    android:elevation="3dp"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground"
+    android:paddingBottom="25dp"
+    android:scrollbars="none"
+    android:theme="@style/divider"
+    app:headerLayout="@layout/hearder_layout"
+    app:itemIconTint="@color/colorPrimaryDark"
+    app:itemTextColor="@color/greyDark"
+    app:menu="@menu/menu">
+
+</com.google.android.material.navigation.NavigationView>

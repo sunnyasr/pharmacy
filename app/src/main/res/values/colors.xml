@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#10857f</color>
+<!--    <color name="colorPrimaryDark">#0b5d58</color>-->
+    <color name="colorPrimaryDark">#10857f</color>
+    <color name="colorAccent">#10857f</color>
+
+
+    <color name="active_dot">#3bb896</color>
+    <color name="nonactive_dot">#e0e4e7</color>
+    <color name="greyLight">#6d6d6d</color>
+    <color name="greyD">#dddddd</color>
+
+
+    <color name="blue_original">#242960</color>
+    <color name="blue_light">#1e73b4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#232a60</color>
+    <color name="yellow">#f5d427</color>
+    <color name="green">#45bc62</color>
+    <color name="greenDark">#126c28</color>
+    <color name="orange">#eaad43</color>
+    <color name="orangeDark">#b67709</color>
+    <color name="bluedark">#2f333f</color>
+    <color name="bluelight">#49acd5</color>
+    <color name="grey">#e8ecef</color>
+    <color name="kprogresshud_default_color">#b1000000</color>
+    <color name="kprogresshud_grey_color">#449E9E9E</color>
+    <color name="tealIcon">#1AB5B3</color>
+    <color name="grey_trans">#80535151</color>
+    <color name="greyDark">#585757</color>
+    <color name="red">#ee534f</color>
+
+    <color name="toast_bg">#4f585f</color>
+    <color name="toast_check">#3ec29d</color>
+
+    <color name="colorFontGreyDark">#333333</color>
+    <color name="colorFontGreyLight">#666666</color>
+    <color name="colorLine">#dfdfdf</color>
+    <color name="colorFontGreen">#388e3c</color>
+    <color name="colorFontRed">#F96650</color>
+
+    <color name="shimmer_color_for_image">#55efefef</color>
+    <color name="black">#000</color>
+    <color name="transprant">#00000000</color>
+    <color name="pink">#E91E63</color>
+</resources>

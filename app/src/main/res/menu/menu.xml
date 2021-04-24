@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboard"
+            android:title="@string/dashboard">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_dashboard"
+                    android:icon="@drawable/dashboard"
+                    android:title="@string/dashboard" />
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/my_profile"
+                    android:title="@string/my_account" />
+                <item
+                    android:id="@+id/nav_orders"
+                    android:icon="@drawable/ic_orders"
+                    android:title="@string/my_orders" />
+
+                <!--                <item-->
+                <!--                    android:id="@+id/nav_emi"-->
+                <!--                    android:icon="@drawable/ic_phone"-->
+                <!--                    android:title="EMI Status" />-->
+
+                <!--                <item-->
+                <!--                    android:id="@+id/nav_winner"-->
+                <!--                    android:icon="@drawable/ic_phone"-->
+                <!--                    android:title="Winner List" />-->
+
+            </menu>
+        </item>
+    </group>
+
+
+    <!--    <group android:checkableBehavior="single">-->
+    <!--        <item android:title="Members">-->
+    <!--            <menu>-->
+
+    <!--                <item-->
+    <!--                    android:id="@+id/nav_tree"-->
+    <!--                    android:icon="@drawable/user_tree"-->
+    <!--                    android:title="User Level" />-->
+    <!--                &lt;!&ndash;                <item&ndash;&gt;-->
+    <!--                &lt;!&ndash;                    android:id="@+id/nav_franchise_members"&ndash;&gt;-->
+    <!--                &lt;!&ndash;                    android:icon="@drawable/ic_phone"&ndash;&gt;-->
+    <!--                &lt;!&ndash;                    android:title="Members" />&ndash;&gt;-->
+
+    <!--                <item-->
+    <!--                    android:id="@+id/nav_level_income"-->
+    <!--                    android:icon="@drawable/income"-->
+    <!--                    android:title="Level Income" />-->
+
+    <!--                &lt;!&ndash;                <item&ndash;&gt;-->
+    <!--                &lt;!&ndash;                    android:id="@+id/nav_franchise_income"&ndash;&gt;-->
+    <!--                &lt;!&ndash;                    android:icon="@drawable/ic_phone"&ndash;&gt;-->
+    <!--                &lt;!&ndash;                    android:title="Franchise Income" />&ndash;&gt;-->
+
+
+    <!--            </menu>-->
+    <!--        </item>-->
+    <!--    </group>-->
+
+    <!--    <group android:checkableBehavior="single">-->
+    <!--        <item android:title="Wallets">-->
+    <!--            <menu>-->
+
+    <!--                &lt;!&ndash;                <item&ndash;&gt;-->
+    <!--                &lt;!&ndash;                    android:id="@+id/nav_add_money"&ndash;&gt;-->
+    <!--                &lt;!&ndash;                    android:icon="@drawable/ic_phone"&ndash;&gt;-->
+    <!--                &lt;!&ndash;                    android:title="Add Money" />&ndash;&gt;-->
+    <!--                &lt;!&ndash;                <item&ndash;&gt;-->
+    <!--                &lt;!&ndash;                    android:id="@+id/nav_trans_funds"&ndash;&gt;-->
+    <!--                &lt;!&ndash;                    android:icon="@drawable/ic_phone"&ndash;&gt;-->
+    <!--                &lt;!&ndash;                    android:title="Transfer Wallet Funds" />&ndash;&gt;-->
+
+    <!--                <item-->
+    <!--                    android:id="@+id/nav_trans_req"-->
+    <!--                    android:icon="@drawable/income"-->
+    <!--                    android:title="Request For Withdrawal" />-->
+    <!--                <item-->
+    <!--                    android:id="@+id/nav_trans_pen"-->
+    <!--                    android:icon="@drawable/income"-->
+    <!--                    android:title="Pending Transaction" />-->
+
+    <!--                <item-->
+    <!--                    android:id="@+id/nav_trans_deli"-->
+    <!--                    android:icon="@drawable/income"-->
+    <!--                    android:title="Delivered Transaction" />-->
+
+    <!--                <item-->
+    <!--                    android:id="@+id/nav_wallet_trans"-->
+    <!--                    android:icon="@drawable/transaction"-->
+    <!--                    android:title="Wallet Transactions" />-->
+
+    <!--            </menu>-->
+    <!--        </item>-->
+    <!--    </group>-->
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Payments">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_trans_history"
+                    android:icon="@drawable/transaction"
+                    android:title="Transactions" />
+
+
+            </menu>
+        </item>
+    </group>
+
+
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_coupon"
+                android:icon="@drawable/ic_coupon"
+                android:title="@string/coupons" />
+            <item
+                android:id="@+id/nav_mission"
+                android:icon="@drawable/mission"
+                android:title="@string/mission" />
+            <item
+                android:id="@+id/nav_vision"
+                android:icon="@drawable/vision"
+                android:title="@string/vision" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/about"
+                android:title="@string/about" />
+
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_phone"
+                android:title="@string/contact" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share"
+                android:title="@string/share" />
+
+
+            <item
+                android:id="@+id/nav_star"
+                android:icon="@drawable/ic_star"
+                android:title="@string/rate" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_change_pass"
+        android:icon="@drawable/change_pass"
+        android:title="@string/change_pass" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/logout"
+        android:title="@string/logout" />
+
+
+</menu>
